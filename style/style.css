@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+:root {
+    /* Main colors */
+    --cor0: #36666D;
+    --cor1: #A8D5E2;
+    --cor2: #C1A58D;
+    --cor3: #7B2D26;
+    --cor4: #E15554;
+    --cor5: #FEA82F;
+    --cor6: #FDBC75;
+
+    /* Main Shadows */
+    --shadow1: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    --shadow2: 2px 2px 4px rgba(0, 0, 0, 0.300);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    color: var(--cor6);
+    background-image: linear-gradient(to top, var(--cor3), var(--cor2) 150%);
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    text-shadow: var(--shadow1);
+}
+
+header h3 {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    text-shadow: var(--shadow1);
+}
+
+nav {
+    color: var(--cor6);
+    background-color: var(--cor3);
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+nav > a {
+    color: var(--cor2);
+    text-decoration: none;
+    padding: 0px 10px;
+    text-shadow: var(--shadow2);
+}
+
+nav > a:visited {
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+main {
+    background-color: var(--cor2);
+    color: var(--cor5);    
+}
+
+main section {
+    background-color: white;
+}
+
+footer {
+    color: var(--cor6);
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 4px 0px;
+}
